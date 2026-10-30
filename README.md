@@ -2,10 +2,10 @@
 Atividade do Programa Trilhas - Inova
 
 ## O que o código faz:
-Faz um registo de compras, aplica desconto de 20% se a idade for >=0 65 anos, caso o valor do desconto for > R$100 recebe um valor extra de 10%, não recebe valor negativo, armazena os dados em uma lista e ao digitar o 0(zero) o codigo é encerrado e mostra uma lista com  resumo do dia. 
+Faz um registo de compras, aplica desconto de 20% se a idade for >= 65 anos, caso o valor do desconto for > R$100 recebe um valor extra de 10%, não recebe valor negativo, armazena os dados em uma lista e ao digitar o 0 (zero) o codigo é encerrado e mostra uma lista com  resumo do dia. 
 
 ## Como ele faz:
-Funciona como um caixa de supermecado: primeiro recebe o valor da compra e a idade do cliente, depois, verifica se tem direito ao desconto de 20% por idade e em seguida, se o valor da compra com o desconto passar de R$100 será aplicado +10%, feito será salvo em um histórico ou lista, depois disso voltará novamente pedindo outro valor da compra ( seria um loop), esse loop só terminará quando o clinte digitar 0 e logo em seguida aparecerá o resumo do dia: quantidade de comprar registrada, total (soma dos valores originais), total do desconto concedidos e total final(soma dos valores com descontos).
+Funciona como um caixa de supermecado: primeiro recebe o valor da compra e a idade do cliente, depois, verifica se tem direito ao desconto de 20% por idade e em seguida, se o valor da compra com o desconto passar de R$100 será aplicado +10%, feito isso será salvo em um histórico ou lista, depois disso voltará novamente pedindo outro valor da compra ( seria um loop), esse loop só terminará quando o clinte digitar 0 e logo em seguida aparecerá o resumo do dia: quantidade de comprar registrada, total bruto (soma dos valores originais), total do desconto concedidos e total final(soma dos valores com descontos).
 
 ## Como rodar:
 O comando pra executar o programa ( python pdv.py)
